@@ -57,7 +57,8 @@ int main(int argc, char* argv[]) {
 
 ## Internal
 
-Do the `SetProcessDpiAwareness(PROCESS_PER_MONITOR_DPI_AWARE)` or `SetProcessDPIAware()` loaded from the DLLs.
+Do the `SetProcessDpiAwareness(PROCESS_PER_MONITOR_DPI_AWARE)` or `SetProcessDPIAware()`.
+They are loaded dynamically from the system DLLs to support older environment and MinGW. 
 
 ## License
 
